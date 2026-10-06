@@ -32,6 +32,37 @@ const messages = {
       education: '教育经历',
       skills: '技术技能'
     },
+    academic: {
+      kicker: 'AI 工程 · 模型评测 · Agent 系统',
+      role: 'AI 工程师，专注大模型评测与 Agent 工程',
+      bio: '我关注如何用可靠的评测、清晰的接口和可复现的工程流程，把模型能力转化为可交付的系统。',
+      aboutTitle: '关于我',
+      about: '目前在人工智能公司从事 Agent 能力评测、模型研究与产品设计；此前在中国信通院参与多系列大模型基准测试，也曾负责智谱 AI 智能体 API 的多平台集成。',
+      affiliation: '人性化科技（北京）有限公司',
+      researchTitle: '研究方向',
+      research: [
+        { title: '大模型评测', description: '数据集设计、评测维度、接口一致性与多模态评测链路。' },
+        { title: 'Agent 系统', description: '工具调用、记忆、规划、失败恢复与提示注入防御。' },
+        { title: 'AI 产品研究', description: '从用户场景与需求文档出发，验证模型能力的产品价值。' }
+      ],
+      newsTitle: '动态',
+      news: [
+        { date: '2026.02', text: '加入人性化科技，负责 Agent 能力评测与 AI 产品研究。' },
+        { date: '2025.06', text: '完成中国信通院实习，参与多系列大模型基准测试。' },
+        { date: '2024.08', text: 'UniFuncs Python SDK 发布至 PyPI。' },
+        { date: '2024.06', text: 'Zero-Haruhi 项目论文被 ACL 2024 接收。' }
+      ],
+      selectedTitle: '精选项目',
+      allProjects: '查看全部项目',
+      selected: [
+        { title: 'UniFuncs Python SDK', meta: 'Python / SSE · PyPI', description: '面向 Web Search、Web Reader、Deep Search 与 Deep Research 的官方 SDK。' },
+        { title: 'HuggingFace Daily Papers 简报', meta: 'Python · 开源维护', description: '将每日论文整理为中文与多语言简报，包含摘要、趋势和音频内容。' },
+        { title: 'Zero-Haruhi', meta: 'HuggingFace · ACL 2024', description: '参与角色数据标注与项目协作，为角色扮演模型提供训练数据。' },
+        { title: 'LLM-API-TestSuite', meta: 'JavaScript · API 标准化', description: '用于多厂商 OpenAI API 一致性与功能性验证的前端测试平台。' }
+      ],
+      educationTitle: '教育经历',
+      projectsIntro: '这里记录我独立开发、参与研究和交付的项目。首页只展示代表性工作，完整档案按时间整理。'
+    },
     projectsCount: '17 项完整记录',
     interests: {
       evaluation: { title: '大模型评测', description: '围绕数据集设计、评测维度、接口一致性与多模态链路，建立可复现的模型基准测试流程。' },
@@ -145,6 +176,37 @@ const messages = {
       experience: 'Experience', experienceNote: 'Models, platforms, and products',
       projects: 'Projects', contributions: 'Open source and academic work', contributionsNote: 'Papers, collaboration, and competitions',
       education: 'Education', skills: 'Technical skills'
+    },
+    academic: {
+      kicker: 'AI ENGINEERING · MODEL EVALUATION · AGENT SYSTEMS',
+      role: 'AI engineer focused on language model evaluation and agent engineering',
+      bio: 'I work on reliable evaluation, clear interfaces, and reproducible engineering workflows that turn model capabilities into systems people can use.',
+      aboutTitle: 'About',
+      about: 'I currently work on agent evaluation, model research, and product design at an AI company. Previously, I worked on multi-model benchmarks at the China Academy of Information and Communications Technology and integrated Zhipu AI agent APIs across several platforms.',
+      affiliation: 'Renxinghua Technology (Beijing)',
+      researchTitle: 'Research interests',
+      research: [
+        { title: 'Large language model evaluation', description: 'Dataset design, evaluation dimensions, interface consistency, and multimodal benchmark pipelines.' },
+        { title: 'Agent systems', description: 'Tool use, memory, planning, failure recovery, and prompt injection defense.' },
+        { title: 'AI product research', description: 'Validating product value from user scenarios, requirements, and model capabilities.' }
+      ],
+      newsTitle: 'News',
+      news: [
+        { date: '2026.02', text: 'Joined Renxinghua Technology to work on agent evaluation and AI product research.' },
+        { date: '2025.06', text: 'Completed an internship at CAICT, working on multi-model benchmark testing.' },
+        { date: '2024.08', text: 'Released the UniFuncs Python SDK on PyPI.' },
+        { date: '2024.06', text: 'The Zero-Haruhi project paper was accepted to ACL 2024.' }
+      ],
+      selectedTitle: 'Selected projects',
+      allProjects: 'View all projects',
+      selected: [
+        { title: 'UniFuncs Python SDK', meta: 'Python / SSE · PyPI', description: 'Official SDK for Web Search, Web Reader, Deep Search, and Deep Research services.' },
+        { title: 'HuggingFace Daily Papers briefings', meta: 'Python · open-source maintenance', description: 'Multilingual daily paper briefings with summaries, trends, and audio content.' },
+        { title: 'Zero-Haruhi', meta: 'HuggingFace · ACL 2024', description: 'Contributed character data annotation and project work for role-playing model training.' },
+        { title: 'LLM-API-TestSuite', meta: 'JavaScript · API standardization', description: 'Frontend test platform for OpenAI-compatible API consistency and feature validation.' }
+      ],
+      educationTitle: 'Education',
+      projectsIntro: 'A compact record of projects I have built, researched, and delivered. The homepage shows representative work; the full archive is organized here.'
     },
     projectsCount: '17 projects documented',
     interests: {
