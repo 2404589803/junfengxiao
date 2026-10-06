@@ -1,18 +1,14 @@
-# 肖君枫｜学术主页
+# junfengxiao｜肖君枫学术主页
 
 这是一个基于 Vue 3 和 Vite 构建的学术个人主页，内容来自个人简历，涵盖 AI 工程、模型评测、Agent 系统、项目经历、开源贡献与教育经历。
 
 ## 在线地址
 
-- [GitHub Pages](https://2404589803.github.io/academic-portfolio/)
-- [Cloudflare Pages](https://academic-portfolio-ayt.pages.dev/)
+- [GitHub Pages](https://2404589803.github.io/junfengxiao/)
 
-两个站点发布同一份代码。向 `master` 或 `main` 分支推送后，会分别触发对应的 GitHub Actions 工作流并自动更新：
+向 `master` 或 `main` 分支推送后，会触发 `.github/workflows/deploy-github-pages.yml`，自动构建并发布到 GitHub Pages。
 
-- `.github/workflows/deploy-github-pages.yml`：构建并发布到 GitHub Pages
-- `.github/workflows/deploy.yml`：构建并发布到 Cloudflare Pages
-
-GitHub Pages 使用项目路径和 Hash 路由，项目页地址为 `/academic-portfolio/`；Cloudflare Pages 使用根路径和普通 History 路由。
+GitHub Pages 使用项目路径和 Hash 路由，项目页地址为 `/junfengxiao/`；Cloudflare Pages 使用根路径和普通 History 路由。
 
 ## 技术栈
 
@@ -54,7 +50,7 @@ npm run preview
 
 ## 部署说明
 
-仓库为公开仓库，因此 GitHub Pages 使用 GitHub Free 即可运行。两个部署工作流都执行 `npm install` 和 `npm run build`，代码推送后会并行发布到两个平台。
+仓库为公开仓库，因此 GitHub Pages 使用 GitHub Free 即可运行。工作流执行 `npm install` 和 `npm run build`，代码推送后自动发布到 GitHub Pages。
 
 ## 许可证
 

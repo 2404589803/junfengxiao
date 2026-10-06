@@ -1,13 +1,12 @@
 {
-  "name": "academic-portfolio",
+  "name": "junfengxiao",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "npm run build && wrangler pages deploy dist --project-name=academic-portfolio --branch=main --commit-dirty=true"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.15",
@@ -24,7 +23,6 @@
   "devDependencies": {
     "@types/three": "^0.172.0",
     "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.0.3",
-    "wrangler": "^3.99.0"
+    "vite": "^6.0.3"
   }
 }
